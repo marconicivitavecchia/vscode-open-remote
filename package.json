@@ -6,6 +6,10 @@
   "engines": { "vscode": "^1.70.0" },
   "description": "Apre il file corrente nel Simple Browser mappando il path locale all'URL del server remoto del Marconi.",
   "activationEvents": ["onCommand:open-remote.open"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marconicivitavecchia/vscode-open-remote"
+  },
   "contributes": {
     "commands": [{
       "command": "open-remote.open",
