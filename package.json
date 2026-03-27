@@ -1,7 +1,7 @@
 {
   "name": "open-remote",
   "displayName": "Open Remote (Marconi)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "icon": "icon.png",
   "engines": { "vscode": "^1.70.0" },
   "description": "Apre il file corrente nel Simple Browser mappando il path locale all'URL del server remoto del Marconi.",
