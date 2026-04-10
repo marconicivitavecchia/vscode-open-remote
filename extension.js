@@ -7,8 +7,8 @@ function activate(context) {
       if (!file) return;
 
       // const match = file.match(/\/\/ucs1\/([^/]+)\/public\/(.+)/);
-      const match = file.match(/\/([^/]+\.[^/]+)\/public\/(.+)/) ||
-                    file.match(/\\\\ucs1\\([^/]+\.[^/]+)\\public\\(.+)/);
+      const match = file.match(/\/([^/]+\.[^/]+)\/[Pp]ublic\/(.+)/) ||
+                    file.match(/\\\\ucs1\\([^/]+\.[^/]+)\\[Pp]ublic\\(.+)/);
 
       if (!match) return vscode.window.showWarningMessage(`Path non riconosciuto: ${file}`);
 
