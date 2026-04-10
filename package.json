@@ -23,5 +23,6 @@
       }]
     }
   },
-  "main": "./extension.js"
+  "main": "./extension.js",
+  "extensionKind": ["ui"]
 }
