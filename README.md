@@ -13,7 +13,7 @@ Il path locale viene trasformato in URL remoto cercando il pattern
 | `//ucs1/mario.rossi/public/progetto/index.php` | `https://studenti.marconicloud.it/webfiles/mario.rossi/progetto/index.php` |
 | `/Users/mario/…/mario.rossi/public/progetto/index.php` | `https://studenti.marconicloud.it/webfiles/mario.rossi/progetto/index.php` |
 
-Funziona sia su **Windows** (`//ucs1/...`) che su **macOS**.
+Funziona sia su **Windows** (`//ucs1/...`) che su **macOS**/**Linux**.
 
 ## Uso
 
