@@ -10,7 +10,7 @@ function activate(context) {
       // const match = file.match(/\/([^/]+\.[^/]+)\/public\/(.+)/);
       const match = file.match(/\\\\ucs1\\([^/]+\.[^/]+)\\public\\(.+)/);
 
-      if (!match) return vscode.window.showWarningMessage('Path non riconosciuto');
+      if (!match) return vscode.window.showWarningMessage(`Path non riconosciuto: ${file}`);
 
       const url = `https://studenti.marconicloud.it/webfiles/${match[1]}/${match[2]}`;
       vscode.commands.executeCommand('simpleBrowser.show', url);
@@ -18,6 +18,6 @@ function activate(context) {
   );
 }
 
-module.exports = { activate, deactivate: () => {} };
+module.exports = { activate, deactivate: () => { } };
 
 ///Users/claudio/Documents/Scuola/Scuola-2025-2026/classi/5Cinf/claudio.capobianco
